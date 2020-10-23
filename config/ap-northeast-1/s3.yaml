@@ -1,0 +1,5 @@
+template_path: s3.py
+
+sceptre_user_data:
+  project: {{ var.project }}
+  prefix: {{ var.environment }}

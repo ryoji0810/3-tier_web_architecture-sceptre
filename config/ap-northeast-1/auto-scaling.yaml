@@ -1,0 +1,10 @@
+template_path: auto_scaling_group.py
+sceptre_user_data:
+  project: {{ var.project }}
+  prefix: {{ var.environment }}
+  launch_template: !stack_output ap-northeast-1/launch-template.yaml::LaunchTemplateId
+  launch_template_latest_version: !stack_output ap-northeast-1/launch-template.yaml::LaunchTemplateLatestVersion
+  target_group:
+    - !stack_output ap-northeast-1/load-barancer.yaml::TargetGroupId
+  subnet_id_list:
+    - !stack_output ap-northeast-1/vpc.yaml::WebSubnetList

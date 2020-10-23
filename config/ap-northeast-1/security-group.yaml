@@ -1,0 +1,8 @@
+template_path: security_group.py
+
+sceptre_user_data: 
+  project: {{ var.project }}
+  prefix: {{ var.environment }}
+  vpc_id: !stack_output ap-northeast-1/vpc.yaml::VpcId
+  vpc_cidr: !stack_output ap-northeast-1/vpc.yaml::VpcCidr
+  
