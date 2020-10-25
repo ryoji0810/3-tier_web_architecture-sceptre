@@ -1,4 +1,4 @@
-# Septre Template
+# 3-tier_web_architecture-sceptre
 
 ## About
 複数のStackを一括管理するSeptreとCFnのTemplateを生成するツールtroposphereを用いた
