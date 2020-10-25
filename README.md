@@ -1,2 +1,2 @@
 下の構成を展開するCFn
-![png](https://user-images.githubusercontent.com/44140439/95987727-c636dc00-0e62-11eb-9274-71d6e1e13d0f.png)
+![3階層webアーキテクチャ (1)](https://user-images.githubusercontent.com/44140439/97112670-fe72d000-1728-11eb-946a-9609c8da2996.png)
