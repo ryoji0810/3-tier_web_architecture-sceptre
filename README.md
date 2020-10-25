@@ -1,7 +1,7 @@
 # 3-tier_web_architecture-sceptre
 
 ## About
-複数のStackを一括管理するSeptreとCFnのTemplateを生成するツールtroposphereを用いた
+複数のStackを一括管理するSceptreとCFnのTemplateを生成するツールtroposphereを用いた
 CFn管理ツールです。
 下記の構成を展開します。
 <img src="https://user-images.githubusercontent.com/44140439/97112670-fe72d000-1728-11eb-946a-9609c8da2996.png" width="692px" height="942px">
