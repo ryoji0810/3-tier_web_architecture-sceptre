@@ -37,16 +37,16 @@ exit
 ## コマンド
 
 ```jsx
-# Create New Stacks
+# スタックを作成
 sceptre --var-file vars/sample.yaml create ap-northeast-1
 
-# Update Stacks
+# スタックを更新
 sceptre --var-file vars/sample.yaml update ap-northeast-1
 
-# Create ChangeSet
+# 変更セットを作成
 sceptre --var-file vars/sample.yaml update -c ap-northeast-1
 
-# List Outputs
+# 展開しているスタックを確認
 sceptre --output yaml --var-file vars/dev.yaml list outputs ap-northeast-1
 ```
 
