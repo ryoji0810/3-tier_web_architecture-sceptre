@@ -6,7 +6,7 @@ CFn管理ツールです。
 下記の構成を展開します。
 <img src="https://user-images.githubusercontent.com/44140439/97112670-fe72d000-1728-11eb-946a-9609c8da2996.png" width="692px" height="942px">
 
-## Setup
+## セットアップ
 ```shell
 # Pipenvでライブラリ管理を行っているので、Pipfile.lockを元に仮想環境を作成し、ライブラリをインストール。
 pipenv install
@@ -19,7 +19,7 @@ exit
 ```
 
 
-## Directory Description
+## ディレクトリ構成
 ```jsx
 .
 ├── Pipfile・・・Pipenvの仮想環境がプロジェクトの依存関係を管理するために使用するファイル
@@ -34,7 +34,7 @@ exit
 │   └── sample.yaml・・・テンプレート共通の変数が書かれたyamlファイル
 ```
 
-## Commands
+## コマンド
 
 ```jsx
 # Create New Stacks
