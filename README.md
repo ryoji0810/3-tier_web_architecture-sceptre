@@ -40,13 +40,13 @@ exit
 
 ```jsx
 # スタックを作成
-sceptre --var-file vars/sample.yaml create ap-northeast-1
+sceptre --var-file vars/dev.yaml create ap-northeast-1
 
 # スタックを更新
-sceptre --var-file vars/sample.yaml update ap-northeast-1
+sceptre --var-file vars/dev.yaml update ap-northeast-1
 
 # 変更セットを作成
-sceptre --var-file vars/sample.yaml update -c ap-northeast-1
+sceptre --var-file vars/dev.yaml update -c ap-northeast-1
 
 # 展開しているスタックを確認
 sceptre --output yaml --var-file vars/dev.yaml list outputs ap-northeast-1
